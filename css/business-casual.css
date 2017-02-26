@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('../img/bg-1920.jpg') no-repeat center center fixed;
     /*background-color:   beige;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -215,5 +215,41 @@ footer p {
         content: '';
         display: table;
         clear: both;
+    }
+}
+
+@media screen and (min-width:0px) {
+    body {
+        background: url('../img/bg-800.jpg') no-repeat center center fixed;
+    }
+}
+
+@media screen and (min-width:640px) {
+    body {
+        background: url('../img/bg-1024.jpg') no-repeat center center fixed;
+    }
+}
+
+@media screen and (min-width:768px) {
+    body {
+        background: url('../img/bg-1280.jpg') no-repeat center center fixed;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    body {
+        background: url('../img/bg-1440.jpg') no-repeat center center fixed;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    body {
+        background: url('../img/bg-1680.jpg') no-repeat center center fixed;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    body {
+        background: url('../img/bg-1920.jpg') no-repeat center center fixed;
     }
 }
